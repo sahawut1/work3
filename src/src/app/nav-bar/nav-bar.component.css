@@ -1,0 +1,32 @@
+.app{
+    display: flex;
+    width: 100vw;
+    min-height: 100vh;
+}
+nav{
+    padding: 5px 10px 0px 10px;
+    flex : var(--sidebar-flex)
+}
+nav ul{
+    font-size: var(--fontsize-nav);
+    list-style: none;
+}
+nav ul li{
+    margin: 8px;
+    color: rgb(150, 151, 151);
+}
+nav ul li a{
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+}
+nav ul li a:hover{
+    color: rgb(2, 64, 233);
+}
+nav ul div li a{
+    color: rgb(150, 151, 151);
+}
+nav {
+    border:1px solid ;
+    border-color: rgb(214, 214, 214);
+
+}

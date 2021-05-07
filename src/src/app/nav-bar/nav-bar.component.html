@@ -1,0 +1,104 @@
+<nav>
+    &nbsp;&nbsp;&nbsp;<b>Commonly</b>
+    <ul>
+        <li>
+            <a (click)="icon1=!icon1" type="button" data-bs-toggle="collapse" ria-expanded="false" data-bs-target="#Text" aria-controls="Text">
+              <i class="bi bi-chevron-compact-down" *ngIf="icon1"></i>
+              <i class="bi bi-chevron-right" *ngIf="!icon1"></i>
+              Text Editor
+            </a>
+        </li>
+          <div class="collapse" id="Text">
+                <li><a>Cursor</a></li>
+                <li><a>Find</a></li>
+                <li><a>Font</a></li>
+                <li><a>Formatting</a></li>
+                <li><a>Diff Editor</a></li>
+                <li><a>Minimap</a></li>
+                <li><a>Sugestions</a></li>
+                <li><a>Font</a></li>
+          </div>
+          <li>
+            <a (click)="icon2=!icon2" type="button" data-bs-toggle="collapse" data-bs-target="#Workbenck" aria-controls="Workbenck">
+              <i class="bi bi-chevron-compact-down" *ngIf="icon2"></i>
+              <i class="bi bi-chevron-right" *ngIf="!icon2"></i>  
+              Workbenck
+            </a>
+        </li>
+          <div class="collapse" id="Workbenck">
+                <li><a>Appearance</a></li>
+                <li><a>Breadcrumbs</a></li>
+                <li><a>Editor Management</a></li>
+                <li><a>Settings Editor</a></li>
+                <li><a>zen Mode</a></li>
+                <li><a>Screencast Mode</a></li>
+          </div>
+          <li>
+          <a (click)="icon3=!icon3" type="button" data-bs-toggle="collapse" data-bs-target="#Window" aria-controls="Window">
+            <i class="bi bi-chevron-compact-down" *ngIf="icon3"></i>
+            <i class="bi bi-chevron-right" *ngIf="!icon3"></i>
+            Window
+        </a>
+    </li>
+      <div class="collapse" id="Window">
+            <li><a>New Window</a></li>
+      </div>
+        <li>
+            <a (click)="icon4=!icon4" type="button" data-bs-toggle="collapse" data-bs-target="#Features" aria-controls="Features">
+              <i class="bi bi-chevron-compact-down" *ngIf="icon4"></i>
+              <i class="bi bi-chevron-right" *ngIf="!icon4"></i>
+              Features
+          </a>
+      </li>
+        <div class="collapse" id="Features">
+              <li><a>Explorer</a></li>
+              <li><a>Search</a></li>
+              <li><a>Debug</a></li>
+              <li><a>Testing</a></li>
+              <li><a>SCM</a></li>
+              <li><a>Extensions</a></li>
+              <li><a>Terminal</a></li>
+              <li><a>Task</a></li>
+              <li><a>Problems</a></li>
+              <li><a>Output</a></li>
+              <li><a>Comments</a></li>
+              <li><a>Remote</a></li>
+              <li><a>Timeline</a></li>
+              <li><a>Notebook</a></li>
+      </div>
+      <li>
+        <a (click)="icon5=!icon5" type="button" data-bs-toggle="collapse" data-bs-target="#Application" aria-controls="Application">
+          <i class="bi bi-chevron-compact-down" *ngIf="icon5"></i>
+          <i class="bi bi-chevron-right" *ngIf="!icon5"></i>
+          Application
+      </a>
+    </li>
+    <div class="collapse" id="Application">
+          <li><a>Proxy</a></li>
+          <li><a>Update</a></li>
+          <li><a>Telemetry</a></li>
+          <li><a>Settings Sync</a></li>
+    </div>
+    <li>
+        <a (click)="icon6=!icon6"type="button" data-bs-toggle="collapse" data-bs-target="#Extensions" aria-controls="Extensions">
+          <i class="bi bi-chevron-compact-down" *ngIf="icon6"></i>
+          <i class="bi bi-chevron-right" *ngIf="!icon6"></i>
+          Extensions
+      </a>
+    </li>
+    <div class="collapse" id="Extensions">
+          <li><a>C</a></li>
+          <li><a>C++</a></li>
+          <li><a>CSS</a></li>
+          <li><a>Emmet</a></li>
+          <li><a>Git</a></li>
+          <li><a>GitHub</a></li>
+          <li><a>Grunt</a></li>
+          <li><a>Gulp</a></li>
+          <li><a>HTML</a></li>
+          <li><a>Intelephense</a></li>
+          <li><a>Jake</a></li>
+          <li><a>JSon</a></li>
+    </div>
+    </ul>
+    </nav>

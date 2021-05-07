@@ -1,0 +1,18 @@
+<div>
+
+    <input class="box" placeholder="Searxch settings" [(ngModel)]="text" />
+    <nav>
+        <a routerLink="">User Settings</a>&nbsp;
+        <a routerLink="work">Workspace Settings</a>
+        <hr>
+    </nav>
+        <div class="row">
+            <div class="col col-md-3">
+                    <app-nav-bar exact part="/"></app-nav-bar>
+            </div>
+            <div class="col col-md-9">
+                    <router-outlet></router-outlet>
+            </div>
+        </div>
+
+</div>

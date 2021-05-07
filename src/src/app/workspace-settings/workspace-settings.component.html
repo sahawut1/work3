@@ -1,0 +1,11 @@
+<h3><b>Commonly Used</b></h3>
+<div *ngFor="let item of setData">
+    <div [innerHTML]="item.set1">
+    </div>
+    <snap class="box">
+        {{item.set2}}
+    </snap>
+    <br>
+    <input class="box" [(ngModel)]="item.set3" />
+    <p>
+</div>
